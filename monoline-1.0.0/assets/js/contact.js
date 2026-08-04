@@ -89,7 +89,9 @@ cards.forEach((card) => {
 
     });
 
-});
+}
+
+);
 
 // ==============================
 // Magnetic Button
