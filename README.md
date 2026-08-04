@@ -249,13 +249,13 @@ https://YOUR_USERNAME.github.io/NibhasWebsite/
 GitHub
 
 ```
-https://github.com/YOUR_USERNAME
+https://github.com/ArjunGittHub
 ```
 
 LinkedIn
 
 ```
-https://linkedin.com/in/YOUR_USERNAME
+https://linkedin.com/in/arjunts2002
 ```
 
 Portfolio
