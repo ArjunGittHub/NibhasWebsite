@@ -1,0 +1,870 @@
+/*=========================================
+      NIBHAS SERVICES
+=========================================*/
+
+.nibhas-services-section{
+
+    padding:100px 0;
+
+    background:#ffffff;
+
+}
+
+.nibhas-intro{
+
+    margin-bottom:70px;
+
+}
+
+.nibhas-main-title{
+
+    font-size:52px;
+
+    font-weight:700;
+
+    line-height:1.2;
+
+    margin-bottom:25px;
+
+}
+
+.nibhas-main-desc{
+
+    max-width:760px;
+
+    margin:auto;
+
+    color:#6b7280;
+
+    font-size:18px;
+
+    line-height:1.9;
+
+}
+
+.nibhas-heading{
+
+    margin-bottom:60px;
+
+}
+
+.nibhas-tag{
+
+    display:inline-block;
+
+    color:#2856d6;
+
+    font-size:14px;
+
+    font-weight:700;
+
+    letter-spacing:3px;
+
+    text-transform:uppercase;
+
+    margin-bottom:15px;
+
+}
+
+.nibhas-heading-title{
+
+    font-size:46px;
+
+    font-weight:700;
+
+    margin-bottom:15px;
+
+}
+
+.nibhas-heading-desc{
+
+    color:#6b7280;
+
+    font-size:18px;
+
+}
+
+.nibhas-service-card{
+
+    background:#ffffff;
+
+    border:1px solid #e8edf5;
+
+    border-radius:20px;
+
+    padding:40px 30px;
+
+    text-align:center;
+
+    height:100%;
+
+    transition:.35s;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.05);
+
+}
+
+.nibhas-service-card:hover{
+
+    transform:translateY(-10px);
+
+    box-shadow:0 25px 45px rgba(0,0,0,.12);
+
+}
+
+.nibhas-service-card img{
+
+    width:70px;
+
+    margin-bottom:20px;
+
+}
+
+.nibhas-service-card h4{
+
+    font-size:24px;
+
+    font-weight:700;
+
+    margin-bottom:15px;
+
+}
+
+.nibhas-service-card p{
+
+    color:#6b7280;
+
+    font-size:16px;
+
+    line-height:1.8;
+
+    margin:0;
+
+}
+
+/*=============================
+        RESPONSIVE
+=============================*/
+
+@media(max-width:991px){
+
+    .nibhas-services-section{
+
+        padding:70px 0;
+
+    }
+
+    .nibhas-main-title{
+
+        font-size:38px;
+
+    }
+
+    .nibhas-heading-title{
+
+        font-size:34px;
+
+    }
+
+}
+
+@media(max-width:767px){
+
+    .nibhas-main-title{
+
+        font-size:30px;
+
+    }
+
+    .nibhas-main-desc{
+
+        font-size:16px;
+
+        padding:0 10px;
+
+    }
+
+    .nibhas-heading-title{
+
+        font-size:28px;
+
+    }
+
+    .nibhas-heading-desc{
+
+        font-size:15px;
+
+    }
+
+    .nibhas-service-card{
+
+        padding:30px 20px;
+
+    }
+
+    .nibhas-service-card img{
+
+        width:60px;
+
+    }
+
+    .nibhas-service-card h4{
+
+        font-size:22px;
+
+    }
+
+    .nibhas-service-card p{
+
+        font-size:15px;
+
+    }
+
+}
+
+
+
+
+/*======================================
+GENERAL
+======================================*/
+section{
+    padding:100px 0;
+}
+
+.section-tag{
+    display:inline-block;
+    padding:8px 18px;
+    background:#f7e9ff;
+    color:#2b28d6;
+    border-radius:30px;
+    font-size:.85rem;
+    font-weight:600;
+    letter-spacing:1px;
+    margin-bottom:15px;
+}
+
+section h2{
+    font-size:2.7rem;
+    font-weight:700;
+    color:#0f172a;
+    margin-bottom:20px;
+}
+
+section p{
+    color:#64748b;
+    line-height:1.9;
+    font-size:1rem;
+}
+
+/*======================================
+ABOUT
+======================================*/
+
+.about-preview{
+    background:#bcd1de;
+}
+
+.about-image{
+    border-radius:25px;
+    overflow:hidden;
+    box-shadow:0 30px 70px rgba(0,0,0,.08);
+    transition:.5s;
+}
+
+.about-image:hover{
+    transform:scale(1.03);
+}
+
+.about-preview .btn-main{
+    margin-top:20px;
+}
+
+/*======================================
+CORE DIVISION
+======================================*/
+
+.core-division{
+
+    background:transparent;
+
+    position:relative;
+
+
+
+}
+
+.division-card,
+.why-card{
+
+    background:rgba(255,255,255,.08);
+
+    backdrop-filter:blur(15px);
+
+    -webkit-backdrop-filter:blur(15px);
+
+    border:1px solid rgba(255,255,255,.15);
+
+    box-shadow:0 20px 40px rgba(0,0,0,.30);
+
+    transition:.4s;
+
+    border-radius: 20px;
+
+    size: 100px;
+
+    padding: 45px;;
+
+}
+
+.division-card:hover,
+.why-card:hover{
+
+    transform:translateY(-12px);
+
+    background:rgba(255,255,255,.13);
+
+    border-color:#28d6c7;
+
+}
+/* .division-card{
+
+    background:#fff;
+
+    padding:45px;
+
+    border-radius:25px;
+
+    height:100%;
+
+    transition:.4s;
+
+    position:relative;
+
+    overflow:hidden;
+
+    box-shadow:0 15px 40px rgba(0,0,0,.06);
+
+} */
+
+/* .division-card::before{
+
+    content:"";
+
+    position:absolute;
+
+    left:0;
+
+    top:0;
+
+    width:100%;
+
+    height:4px;
+
+    background:#2839d6;
+
+    transform:scaleX(0);
+
+    transition:.4s;
+
+} */
+
+/* .division-card:hover{
+
+    transform:translateY(-12px);
+
+    box-shadow:0 25px 60px rgba(0,0,0,.12);
+
+} */
+
+.division-card:hover::before{
+
+    transform:scaleX(1);
+
+}
+
+.division-icon{
+    width:100px;
+    height:100px;
+    /* background:#d62828; */
+    border-radius:20px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin-bottom:25px;
+}
+
+.division-icon img{
+    width:100px;
+    height:100px;
+    object-fit:contain;
+}
+
+.division-card h3{
+
+    font-weight:700;
+
+    margin-bottom:18px;
+
+}
+
+.division-card ul{
+
+    margin:25px 0;
+
+    padding-left:0;
+
+}
+
+.division-card li{
+
+    list-style:none;
+
+    margin-bottom:12px;
+
+    color:#475569;
+
+}
+
+.division-card a{
+
+    color:#3c28d6;
+
+    font-weight:600;
+
+    text-decoration:none;
+
+}
+
+.division-card a i{
+
+    transition:.3s;
+
+}
+
+.division-card:hover a i{
+
+    transform:translateX(8px);
+
+}
+
+.core-division h2,
+.core-division h3,
+.core-division p,
+.core-division li,
+.core-division a,
+
+.why-us h2,
+.why-us h4,
+.why-us p{
+
+    color:#ffffff;
+
+}
+
+.section-tag{
+
+    color:#286ed6;
+
+    font-weight:700;
+
+    letter-spacing:2px;
+
+    
+
+}
+
+
+.division-icon img,
+.why-icon img{
+
+    filter:brightness(1.1);
+
+}
+
+@media(max-width:768px){
+
+    .nibhas-video-bg{
+
+        object-position:center;
+
+    }
+
+    .division-card,
+    .why-card{
+
+        margin-bottom:25px;
+
+    }
+
+}
+/*======================================
+WHY US
+======================================*/
+
+.why-us{
+
+    background:transparent;
+
+    position:relative;
+
+}
+
+/* .why-card{
+
+    background:#fff;
+
+    border-radius:20px;
+
+    padding:35px;
+
+    text-align:center;
+
+    transition:.4s;
+
+    border:1px solid #edf2f7;
+
+    height:100%;
+
+}
+
+.why-card:hover{
+
+    transform:translateY(-10px);
+
+    box-shadow:0 20px 50px rgba(0,0,0,.08);
+
+} */
+
+.why-icon{
+    width:90px;
+    height:90px;
+    border-radius:50%;
+    /* background:#d62828; */
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin:0 auto 25px;
+}
+
+.why-icon img{
+    width:100px;
+    height:100px;
+    object-fit:contain;
+}
+
+
+.why-card h4{
+
+    margin-bottom:15px;
+
+    font-weight:700;
+
+}
+
+/*======================================
+PROCESS
+======================================*/
+
+.process{
+
+    background:#f8fafc;
+
+}
+
+.process-row{
+
+    position:relative;
+
+}
+
+.process-row::before{
+
+    content:"";
+
+    position:absolute;
+
+    left:8%;
+
+    right:8%;
+
+    top:40px;
+
+    height:2px;
+
+    background:#282bd6;
+
+}
+
+.process-item{
+
+    position:relative;
+
+    z-index:2;
+
+}
+
+.process-circle{
+
+    width:80px;
+
+    height:80px;
+
+    margin:auto;
+
+    background:#fff;
+
+    border:3px solid #282bd6;
+
+    border-radius:50%;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    font-weight:700;
+
+    color:#5328d6;
+
+    margin-bottom:20px;
+
+    transition:.4s;
+
+}
+
+.process-item:hover .process-circle{
+
+    background:#3c28d6;
+
+    color:#fff;
+
+    transform:rotate(360deg);
+
+}
+
+/*======================================
+INDUSTRIES
+======================================*/
+
+.industries{
+
+    background:#fff;
+
+}
+
+.industry-card{
+
+    background:#fff;
+
+    padding:35px;
+
+    border-radius:20px;
+
+    transition:.35s;
+
+    border:1px solid #ececec;
+
+}
+
+.industry-card:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:0 20px 40px rgba(0,0,0,.08);
+
+}
+
+.industry-card i{
+
+    font-size:2.5rem;
+
+    color:#2845d6;
+
+    margin-bottom:20px;
+
+    display:block;
+
+}
+
+.industry-card h5{
+
+    font-weight:600;
+
+}
+
+/*======================================
+TESTIMONIAL
+======================================*/
+
+.testimonial{
+
+    background:#f8fafc;
+
+}
+
+.testimonial-card{
+
+    background:#fff;
+
+    padding:40px;
+
+    border-radius:25px;
+
+    height:100%;
+
+    transition:.4s;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.05);
+
+}
+
+.testimonial-card:hover{
+
+    transform:translateY(-10px);
+
+}
+
+.stars{
+
+    color:#ffb703;
+
+    font-size:1.3rem;
+
+    margin-bottom:20px;
+
+}
+
+.testimonial-card h5{
+
+    margin-top:25px;
+
+    color:#285fd6;
+
+    font-weight:700;
+
+}
+
+
+/*======================================
+RESPONSIVE
+======================================*/
+
+/* ==========================
+   PROCESS - MOBILE
+========================== */
+
+@media (max-width: 991px) {
+
+    .process-row{
+        row-gap: 40px;
+    }
+
+    .process-row .col{
+        flex: 0 0 50%;
+        max-width: 50%;
+        margin-bottom: 20px;
+    }
+
+    /* Center the last item (05) */
+    .process-row .col:last-child{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .process-item{
+        max-width: 220px;
+        margin: auto;
+    }
+
+    .process-circle{
+        width: 70px;
+        height: 70px;
+        margin-bottom: 15px;
+    }
+
+    .process-item h5{
+        font-size: 1.2rem;
+        margin-bottom: 10px;
+    }
+
+    .process-item p{
+        font-size: 15px;
+        line-height: 1.6;
+    }
+
+    .process-row::before{
+        display: none;
+    }
+
+}
+
+
+/*=====================================
+      VIDEO WRAPPER
+=====================================*/
+
+.nibhas-video-wrapper{
+
+    position:relative;
+
+    overflow:hidden;
+
+    width:100%;
+
+    
+
+}
+
+/*=========================
+      VIDEO
+==========================*/
+
+.nibhas-video-bg{
+
+    position:absolute;
+
+    top:0;
+    left:0;
+
+    width:80%;
+    height:100%;
+
+    object-fit:cover;
+
+    z-index:1;
+
+}
+
+/*=========================
+      OVERLAY
+==========================*/
+
+.nibhas-overlay{
+
+    position:absolute;
+
+    inset:0;
+
+    /* background:
+    linear-gradient(
+    rgba(5,8,22,.82),
+    rgba(5, 8, 22, 0.558)
+    ); */
+
+    z-index:2;
+
+}
+
+/*=========================
+      CONTENT
+==========================*/
+
+.nibhas-content{
+
+    position:relative;
+
+    z-index:3;
+
+}
