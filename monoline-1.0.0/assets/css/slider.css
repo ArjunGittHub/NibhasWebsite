@@ -204,156 +204,213 @@
 
 /*---------- SLIDE CAPTION ----------*/
 .kenburns_061_slide{
-  top: 23%;
-  left: 8%;
-  width: 65%;
-  right: auto;
-  text-align: left;
-  position: absolute;
-  -webkit-animation-delay: 0s;
-  animation-delay: 0s;
-  -webkit-animation-duration: 2s;
-  animation-duration: 2s;
-  -webkit-animation-timing-function: cubic-bezier(.165,.84,.44,1);
-  animation-timing-function: cubic-bezier(.165,.84,.44,1);
+
+    position:absolute;
+
+    top:50%;
+
+    left:8%;
+
+    transform:translateY(-50%);
+
+    width:45%;
+
+    z-index:5;
+
+    padding-bottom: 450px;
+
 }
-._center{
-  left: 0;
-  right: 0;
-  margin: auto;
-  text-align: center;
-}
+
 .kenburns_061_slide_center{
-  left: 30;
-  right: 0;
-  margin: auto;
-  text-align: center;
+
+    left:50%;
+
+    top:50%;
+
+    transform:translate(-50%,-50%);
+
+    width:70%;
+
+    text-align:center;
+
 }
-.kenburns_061_slide > h1 {
-	color: #ffffff;
-	margin: 10px 0;
-	font-size:62px;
-	font-weight: 700px;
-	text-shadow: none;
-	text-transform: capitalize;
-	-webkit-font-smoothing: antialiased;
-  text-align: center;
+
+.kenburns_061_slide_center h3{
+
+      max-width:700px;
+
+    margin:20px auto 35px;
+
+    font-size:200px;
+
+    line-height:1.8;
+
+    font-weight:400;
+
+    color:#ffffff;
+
+    text-align:center;
+
 }
-.kenburns_061_slide > h2{
-  margin: 0;
-  color: #f7f2f2;
-  font-size: 26px;
-  font-weight:600;
-  text-shadow: none;
-  text-transform: capitalize;
-  -webkit-font-smoothing: antialiased;
+
+.kenburns_061_slide h1{
+
+    font-size:52px;
+
+    margin-bottom:10px;
+
+    color:#f2eded;
+
+    text-transform:uppercase;
+
+    letter-spacing:1px;
+
 }
-.kenburns_061_slide > h3{
-  margin: 0;
-  color: #f7f5f5;
-  font-size: 16px;
-  font-weight: 400;
-  text-shadow: none;
-  text-transform: capitalize;
-  -webkit-font-smoothing: antialiased;
+.kenburns_061_slide h2{
+
+    font-size:58px;
+
+    line-height:1.15;
+
+    margin:15px 0;
+
+    font-weight:700;
+
+    color:#fff;
+
+}
+.kenburns_061_slide h3{
+
+    margin:0;
+
+    font-size:20px;
+
+    color:#fff;
+
+    line-height:1.8;
+
+    max-width:700px;
+
 }
 .kenburns_061_slide > a,
 .kenburns_061_slide > a:visited{
-  width: 120px;
-  color: #ffffff;
-  font-size: 12px;
-  text-align: left;
-  font-weight: 400;
-  margin-top: 25px;
-  text-shadow: none;
-  position: relative;
-  text-decoration: none;
-  display: inline-block;
-  text-transform: uppercase;
-  -webkit-font-smoothing: antialiased;
-  -webkit-transition: width cubic-bezier(.165,.84,.44,1) 0.5s;
-  transition: width cubic-bezier(.165,.84,.44,1) 0.5s;
+
+    display:inline-flex;
+
+    align-items:center;
+
+    gap:10px;
+
+    color:#fff;
+
+    font-size:16px;
+
+    font-weight:600;
+
+    text-decoration:none;
+
+    text-transform:uppercase;
+
+    transition:.3s;
+
 }
-.kenburns_061_slide > a:hover,
-.kenburns_061_slide > a:active{
-  width: 130px;
+
+.kenburns_061_slide > a::after{
+
+    content:"\f178";
+
+    font-family:FontAwesome;
+
+    transition:.3s;
+
 }
-.kenburns_061_slide_right > a{
-  text-align: right;
+
+.kenburns_061_slide > a:hover{
+
+    color:#0a62ef;
+
 }
-.kenburns_061_slide_center > a{
-  width: 935px;
-  text-align: center;
-}
-.kenburns_061_slide > a:after{
-  top: 0px;
-  right: 0;	
-  content: "\f178";
-  font-style: normal;
-  position: absolute;
-  font-weight: normal;
-  font-family: FontAwesome;
-  text-decoration: inherit;
-}
-.kenburns_061_slide_right > a:after{
-  left: 0;
-  right: auto;
-  content: "\f177";
-}
-.kenburns_061_slide_center > a:before{
-  top: 0;
-  left: 0;	
-  content: "\f177";
-  font-style: normal;
-  position: absolute;
-  font-weight: normal;
-  font-family: FontAwesome;
-  text-decoration: inherit;
+
+.kenburns_061_slide > a:hover::after{
+
+    transform:translateX(6px);
+
 }
 /*------------------------------------------------------*/
 /* RESPONSIVE
 /*------------------------------------------------------*/
 
 /*---------- MEDIA 480px ----------*/
-@media only screen and (max-width: 480px){
-  /*---------- INDICATORS CONTROL ----------*/
-  .ps_indicators_txt_icon > .carousel-indicators{
-    display: none;
-  }
-  .ps_control_txt_icon .carousel-control{
-    display: none;
-  }
-  /*---------- SLIDE CAPTION ----------*/
-  .kenburns_061_slide{
-    top: 10%;
-    left: 5%;
-    width: 100%;
-  }
-  .kenburns_061_slide_right{
-    right: 5%;
-	left: auto;
-  }
-  .kenburns_061_slide_center{
-	left: 0;
-	right: 0;
-  }
-  .kenburns_061_slide > h1{
-    margin: 5px 0;
-    font-size: 20px;
-  }
-  .kenburns_061_slide > h2{
-    margin: 5px 0;
-    font-size: 16px;
-	padding-top:70px;
-  }
-  .kenburns_061_slide > h3{
-    margin: 5px 0;
-    font-size: 12px;
-  }
-  .kenburns_061_slide > a,
-  .kenburns_061_slide > a:visited{
-    margin-top: 10px;
-  }
+@media (max-width:768px){
+
+#kenburns_061{
+
+height:100vh;
+
+}
+
+#kenburns_061 .carousel-item img{
+
+height:100vh;
+
+object-fit:cover;
+
+}
+
+.kenburns_061_slide,
+.kenburns_061_slide_right,
+.kenburns_061_slide_center{
+
+top:50%;
+
+left:50%;
+
+right:auto;
+
+width:90%;
+
+transform:translate(-50%,-50%);
+
+text-align:center;
+
+padding:0 15px;
+
+}
+
+.kenburns_061_slide h1{
+
+font-size:15px;
+
+margin-bottom:10px;
+
+}
+
+.kenburns_061_slide h2{
+
+font-size:30px;
+
+margin-bottom:15px;
+
+line-height:1.3;
+
+}
+
+.kenburns_061_slide h3{
+
+font-size:16px;
+
+line-height:1.6;
+
+}
+
+.kenburns_061_slide a{
+
+margin-top:25px;
+
+display:inline-block;
+
+}
+
 }
 
 /*---------- MEDIA 481px - 600px ----------*/
@@ -377,28 +434,92 @@
   }
 }
 
-/*---------- MEDIA 601px - 767px ----------*/
-@media (min-width: 601px) and (max-width: 767px){
-  /*---------- INDICATORS CONTROL ----------*/
-  .ps_indicators_txt_icon > .carousel-indicators{
-    right: 15%;
-	width: 70%;
-  }
-  /*---------- SLIDE CAPTION ----------*/
-  .kenburns_061_slide > h1{
-    font-size: 35px;
-    margin: 5px 0;
-  }
+/* ==========================================
+   TABLET (iPad / iPad Pro)
+========================================== */
 
-  .kenburns_061_slide > h2{
-    margin: 5px 0;
-    font-size: 20px;
-  }
-  .kenburns_061_slide > h3{
-    margin: 5px 0;
-    font-size: 18px;
-  }
+@media only screen and (min-width:768px) and (max-width:1024px){
+
+    #kenburns_061{
+
+        height:70vh;
+        min-height:650px;
+
+    }
+
+    #kenburns_061 .carousel-item img{
+
+        height:70vh;
+        object-fit:cover;
+
+    }
+
+    .kenburns_061_slide,
+    .kenburns_061_slide_right,
+    .kenburns_061_slide_center{
+
+        top:50%;
+        left:8%;
+        right:auto;
+
+        width:80%;
+
+        transform:translateY(-50%);
+
+        text-align:left;
+
+    }
+
+    .kenburns_061_slide_center{
+
+        left:50%;
+        transform:translate(-50%,-50%);
+        width:85%;
+        text-align:center;
+
+    }
+
+    .kenburns_061_slide h1{
+
+        font-size:38px;
+        margin-bottom:10px;
+
+    }
+
+    .kenburns_061_slide h2{
+
+        font-size:42px;
+        line-height:1.25;
+        margin-bottom:18px;
+
+    }
+
+    .kenburns_061_slide h3{
+
+        font-size:18px;
+        line-height:1.7;
+        max-width:650px;
+
+    }
+
+    .kenburns_061_slide a{
+
+        margin-top:25px;
+        padding:12px 28px;
+        font-size:15px;
+
+    }
+
+    .carousel-control-prev,
+    .carousel-control-next{
+
+        width:55px;
+
+    }
+
 }
+
+/*---------- MEDIA 601px - 767px ----------*/
 
 /*------------------------------------------------------*/
 /* KEN BURNS ANIMATION EFFECTS

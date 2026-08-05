@@ -454,19 +454,19 @@ FOOTER
 
 .footer{
 
-text-align:center;
+text-align:left;
 
 }
 
 .footer-social{
 
-justify-content:center;
+justify-content:left;
 
 }
 
 .contact-item{
 
-justify-content:center;
+justify-content:left;
 
 text-align:left;
 
@@ -504,7 +504,7 @@ font-size:20px;
 
 .counter-num{
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: flex-end;
     gap: 2px;
     font-size: 60px;
