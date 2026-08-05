@@ -161,29 +161,21 @@ Optimized for:
 
 # 📸 Screenshots
 
-Create a folder:
+<h1 align="center">📸 Website Preview</h1>
 
-```text
-assets/screenshots/
-```
+<h3 align="center">Home Page</h3>
 
-Example:
+<p align="center">
+    <img src="assets/screenshots/home.png" width="90%">
+</p>
 
-```markdown
-## Home
+<h3 align="center">Services • About • Contact</h3>
 
-![Home](assets/screenshots/home.png)
-
-## Services
-
-![Services](assets/screenshots/services.png)
-
-## Contact
-
-![Contact](assets/screenshots/contact.png)
-```
-
----
+<p align="center">
+    <img src="assets/screenshots/service.png" width="30%">
+    <img src="assets/screenshots/about.png" width="30%">
+    <img src="assets/screenshots/contact.png" width="30%">
+</p>
 
 # 🚀 Installation
 
@@ -257,13 +249,13 @@ https://YOUR_USERNAME.github.io/NibhasWebsite/
 GitHub
 
 ```
-https://github.com/YOUR_USERNAME
+https://github.com/ArjunGittHub
 ```
 
 LinkedIn
 
 ```
-https://linkedin.com/in/YOUR_USERNAME
+https://linkedin.com/in/arjunts2002
 ```
 
 Portfolio
