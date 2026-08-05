@@ -182,7 +182,7 @@ Optimized for:
 Clone the repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/NibhasWebsite.git
+git clone https://github.com/ArjunGittHub/NibhasWebsite.git
 ```
 
 Move into the project
